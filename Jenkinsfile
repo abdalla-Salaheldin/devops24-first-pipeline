@@ -8,4 +8,7 @@ stages
 {  stage ('build')
    {steps {sh 'echo build the job'}} 
 }
+   stage ('deploy')
+   {steps {sh 'echo deploy the job'}}
+}
 }
